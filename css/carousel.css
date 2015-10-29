@@ -1,0 +1,30 @@
+.frame {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tray {
+  width: 2400px;
+  position: relative;
+}
+
+.slide {
+  width: 800px;
+  height: 600px;
+  float: left;
+}
+
+.next, .prev{
+  position: absolute;
+  top: 49%;
+  color: white;
+}
+
+.prev:hover, .next:hover{
+  color: red;
+}
+
+.prev {left: 0;}
+.next {right: 0;}
